@@ -1,8 +1,8 @@
 한 개의 문자열을 입력받고, 특정 문자열에 입력 빋은 문자열에 몇 개 존재 하는지 알아내는 프로그램을 작성하세요.
 
-입력예제
-COMPUTERPROGRAMMING
-R
+입력예제  
+COMPUTERPROGRAMMING  
+R  
 
-출력예제
+출력예제  
 3
