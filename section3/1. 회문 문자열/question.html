@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회문 문자열</title>
+</head>
+<body>
+    <script>
+        function solution(s){
+            let answer="YES",
+                str = s.toLowerCase(s),
+                len = Math.floor(s.length / 2); // 문자 길이를 반으로 나눔 
+
+            for(let i = 0; i < len; i++){ // 나눈 만큼 반복문을 돌림 
+                if(str[i] !== str[s.length-1 - i]) answer="NO" 
+            }
+            return answer;
+        }
+        
+        let str="gooG";
+        console.log(solution(str));
+    </script>
+</body>
+</html>
